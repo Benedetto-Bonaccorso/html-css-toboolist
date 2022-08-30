@@ -1,0 +1,44 @@
+
+body{
+    background-color: azure;
+    margin: 0;
+}
+
+header{
+    background-color: white;
+    padding-bottom: 1rem;
+}
+
+header h1{
+    display: inline;
+    line-height: 60px;
+    vertical-align:text-bottom;
+    padding-left: 1rem;
+}
+
+main{
+    background-color: white;
+    margin: 2rem;
+}
+
+footer{
+    background-color: white;
+    background-color: white;
+    margin: 2rem;
+}
+
+.section{
+
+}
+
+.task{
+    display: inline;
+}
+
+.task_cathegory{
+    display: inline;
+}
+
+.editorial{
+
+}
