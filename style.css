@@ -28,9 +28,12 @@ header h1{
 
 main{
     background-color: white;
+
+    padding: 1rem;
     margin: 2rem;
     margin-bottom: 2px;
-    padding: 1rem;
+    margin-left: 10rem;
+    margin-right: 10rem;
 }
 
 button{
@@ -53,12 +56,16 @@ button{
 footer{
     background-color: white;
     background-color: white;
+    padding-top: 1rem;
     margin: 2rem;
     margin-top: 0;
-    padding-top: 1rem;
+    margin-left: 10rem;
+    margin-right: 10rem;
 }
 
 .section{
+
+    font-weight: bold;
 
     padding-left: 3rem;
     padding-top: 2rem;
@@ -94,6 +101,10 @@ p{
 
 .mobile{
     background-color: var(--orange);
+}
+
+.none{
+    display: none;
 }
 
 .website{
