@@ -1,7 +1,17 @@
+:root{
+    --blue:#47ADF1;
+    --background: #F5F9F9;
+    --purple:#9C72E4;
+    --cyan:#64C0A9;
+    --orange:#F29E33;
+    --pink:#D863A1;
+    --green:#B0C926;
+}
 
 body{
-    background-color: azure;
+    background-color: var(--background);
     margin: 0;
+    padding: 0;
 }
 
 header{
@@ -19,26 +29,77 @@ header h1{
 main{
     background-color: white;
     margin: 2rem;
+    margin-bottom: 2px;
+    padding: 1rem;
+}
+
+button{
+    border-radius: 5px;
+    border: none;
+    padding: 5px;
+}
+
+.task-button{
+    color: white;
+    background-color: var(--blue);
+}
+
+.section-button{
+    color: gray;
+    border: solid gray 1px;
+    background-color: white;
 }
 
 footer{
     background-color: white;
     background-color: white;
     margin: 2rem;
+    margin-top: 0;
+    padding-top: 1rem;
 }
 
 .section{
 
+    padding-left: 3rem;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+}
+
+p{
+    padding-left: 3rem
 }
 
 .task{
-    display: inline;
+
 }
 
 .task_cathegory{
     display: inline;
+    color: white;
+    border-radius: 15px;
+    padding: 8px;
 }
 
 .editorial{
+    background-color: var(--blue);
+}
 
+.q1_goals{
+    background-color: var(--purple);
+}
+
+.recruiting{
+    background-color: var(--cyan);
+}
+
+.mobile{
+    background-color: var(--orange);
+}
+
+.website{
+    background-color: var(--pink);
+}
+
+.sales{
+    background-color: var(--green);
 }
